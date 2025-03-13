@@ -1,0 +1,18 @@
+/* p{
+    /* border: 10px solid blue;  */
+    /* border: 10px dotted blue; */
+    /* border: 10px dashed blue; */
+    /* border: 10px groove blue; */
+   
+/* } */
+
+p{
+    border: 10px solid red;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    margin: 10%;
+    width: 400px;
+    height: 130px
+}
