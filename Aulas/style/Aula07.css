@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+
+}
+body{
+    text-align: center;
+}
+
+div{
+    border: 8px solid blue;
+    margin-top: 4em;
+    padding: 20px ;
+    box-shadow: 5px 5px ;
+    
+}
+
+h2{
+    margin-top: 4em;
+    width: 200px;
+}
+h2:hover{
+    box-shadow: 6px 6px red, -6px -6px blue;
+    transition: 0.8s;
+}
