@@ -1,0 +1,23 @@
+body{
+    background-color: #000000;
+    color: white;
+    background-image: url(https://uploads.spiritfanfiction.com/historias/capitulos/202105/reencarnei-em-black-clover-22212551-010520211718.jpg);
+    background-repeat: no-repeat;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+hr{
+    width: 134px;
+    
+}
+
+h2{
+    border-bottom: 2px solid blue;
+    width: 460px;
+}
