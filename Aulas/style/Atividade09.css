@@ -1,13 +1,16 @@
 body{
     background-color: #000000;
     color: black;
-    background-image: url(../Imagens/Design\ sem\ nome.png);
+    background-image: url(../Imagens/Grimorio.png);
     background-repeat: no-repeat;
     margin: 20%;
     margin-top: 0;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    
+    
 }
 
 
@@ -16,6 +19,7 @@ header{
     border-radius: 20px;
     justify-content: center;
     height: 1000px ; 
+    box-shadow: 4px 5px 6px 1px rgb(58, 2, 88);
 }
 
 h1{
@@ -35,9 +39,14 @@ li{
     border-radius: 5px;
     border: 2px solid whitesmoke;
     margin-top: 90px;
+    padding: 10px;   
 }
 
 ul{
     list-style-type: none;
     margin-bottom: 2em;
+    padding: 10px;
+}
+a{
+    
 }
