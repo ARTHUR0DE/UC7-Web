@@ -1,0 +1,42 @@
+/* body{
+    background: linear-gradient(to left,#ff0000,#000000 50%,#ffffff);
+    text-align: center;
+} */
+
+/* h1{
+    color: white;
+} */
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    width: 30%;
+}
+
+.bnt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bnt [type="submit"]{
+    background-color: rgb(42, 247, 52);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.bnt [type="reset"]{
+    background-color: rgb(247, 42, 42);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
