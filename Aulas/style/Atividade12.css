@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121312;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #272a29;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 10px #000;
+    align-items: center;
+  }
+  
+  .forms h2 {
+    color: #00d9ff;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00d9ff;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .botao {
+    background-color: #981823;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  li{
+    list-style: none;
+    color: white;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .submit {
+    background-color: #00d9ff;
+    color: #000;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+  }
+  
+  input:focus{
+    outline: 2px solid #00d9ff;
+    color: #00d9ff;
+  }
