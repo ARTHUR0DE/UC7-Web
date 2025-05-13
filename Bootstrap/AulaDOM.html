@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+    body{
+        background-color: rgb(106, 0, 204);
+        color: rgb(247, 136, 0);
+        font: normal 10pt arial;
+    }
+
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Iniciando Estudos com DOM</h1>
+
+    <p>Aqui vai o resultado</p>
+
+    <p id="msn">Erick não aguenta o quartel</p>
+
+    <div id="sms" class="sms">
+        Mensagem de texto via sms
+    </div>
+
+    <p> aprendendo a lidar com <span name="DOM">DOM</span></p>
+    <script>
+
+        let p1 = window.document.getElementsByTagName("p")[0]
+
+        p1.style.color = "blue"
+        
+        // document.write(p1.innerText)
+
+        let p2 = document.getElementById('msn')
+
+        // document.write(p2.innerHTML)
+
+        // window.alert(msn.innerHTML)
+
+
+        let corpo = window.document.body
+
+        corpo.style.background = "black"
+
+        // document.write(window.document.URL)
+
+        let d = document.querySelector('div#sms')
+        let d1 = document.querySelector('div.sms')
+
+        d.style.background = "blue"
+        d1.style.color = "hotpink"
+
+        let a = document.getElementsByName('DOM')[0]
+
+        a.style.background = "green"
+
+    </script>
+
+</body>
+</html>
