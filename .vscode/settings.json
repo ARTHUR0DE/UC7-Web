@@ -1,4 +1,5 @@
 {
-    "vscode-pokemon.pokemonSize": "nano",
-    "vscode-pokemon.theme": "beach"
+    "vscode-pokemon.pokemonSize": "small",
+    "vscode-pokemon.theme": "forest",
+    "vscode-pokemon.position": "explorer"
 }
