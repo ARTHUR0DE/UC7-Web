@@ -1,5 +1,9 @@
 {
     "vscode-pokemon.pokemonSize": "small",
+<<<<<<< HEAD
     "vscode-pokemon.theme": "forest",
     "vscode-pokemon.position": "explorer"
+=======
+    "vscode-pokemon.theme": "beach"
+>>>>>>> c5c324d391883b93669da16bcb98e814c6c19475
 }
