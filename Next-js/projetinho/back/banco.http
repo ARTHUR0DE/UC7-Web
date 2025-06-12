@@ -15,8 +15,8 @@ POST http://localhost:3000/tasks
 Content-Type: application/json
 
 {
-    "title": "Estudar Excel",
-    "description": "Fazer planilha para petro"
+    "title": "Lavar o carro",
+    "description": "Lavar o carro no sábado"
 }
 
 ###
@@ -26,8 +26,8 @@ PUT http://localhost:3000/tasks/1
 Content-Type: application/json
 
 {
-    "title": "Tarefa atualizada",
-    "description": "Descrição atualizada"
+    "title": "Aula de excel",
+    "description": "Ministrar aula de excel no sábado"
 }
 
 ###
